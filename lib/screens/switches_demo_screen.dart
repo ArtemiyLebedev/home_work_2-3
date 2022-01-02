@@ -67,7 +67,7 @@ class _SwitchesDemoScreenState extends State<SwitchesDemoScreen> {
                     onChanged: _onSkillLevelChanged,
                   ),
                   RadioListTile<SkillLevel>(
-                    title: const Text('middle'),
+                    title: Text('middle'),
                     value: SkillLevel.middle,
                     groupValue: _skillLevel,
                     onChanged: _onSkillLevelChanged,
